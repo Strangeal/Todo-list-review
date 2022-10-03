@@ -1,6 +1,3 @@
-// import { endsWith } from 'lodash';
-// import './style.css';
-
 let todos = JSON.parse(localStorage.getItem('localStore')) || [];
 function DisplayTodos() {
   const todoList = document.querySelector('#todo-list');
