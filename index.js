@@ -1,5 +1,5 @@
 // import { endsWith } from 'lodash';
-import './style.css';
+// import './style.css';
 
 let todos = JSON.parse(localStorage.getItem('localStore')) || [];
 function DisplayTodos() {
@@ -8,7 +8,7 @@ function DisplayTodos() {
 
   todos.forEach((todo) => {
     // Create element for rendering input
-    
+
     const todoItem = document.createElement('div');
     todoItem.classList.add('todo-item');
     const label = document.createElement('label');
